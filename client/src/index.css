@@ -1,0 +1,23 @@
+:root {
+  color-scheme: light;
+  --page-bg: #f4ede4;
+  --paper-bg: #fffaf5;
+  --ink: #352518;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  background: var(--page-bg);
+  color: var(--ink);
+}
